@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Exercise 2.2</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+
+</head>
+<body>
+<button
+        class="btn btn-light justify-content-center"
+        data-bs-toggle="collapse"
+        data-bs-target="#details">
+
+    Show Details
+
+</button>
+<div class="collapse mt-5" id="details">
+    <div class="accordion-body text-lg-center">
+    welcome to bootstrap js plugins
+    </div>
+</div>
+<div class="alert alert-warning alert-dismissible carousel-fade">Seats are limited.Hurry up!!
+<button class="btn-close" data-bs-dismiss="alert"></button></div>
+<div class="bs-popover-start">
+    <div class="row justify-content-center">
+        <div class="col-md-7 col-lg-4">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white text-center">
+                    <h2>WELCOME TO THE COMMUNITY EVENT REGISTRATION</h2>
+                </div>
+                <div class="card-body">
+
+                    <form>
+
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="Enter your full name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email"
+                                   class="form-control"
+                                   placeholder="Enter your email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Phone Number</label>
+                            <input type="tel"
+                                   class="form-control"
+                                   placeholder="Enter your phone number">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Event Category</label>
+                            <select class="form-select">
+                                <option selected>Select Event</option>
+                                <option>Music Festival</option>
+                                <option>Food Carnival</option>
+                                <option>Sports Meet</option>
+                                <option>Workshop</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Event Date</label>
+                            <input type="date"
+                                   class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Address</label>
+                            <textarea class="form-control"
+                                      rows="3"
+                                      placeholder="Enter your address"></textarea>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   id="terms">
+                            <label class="form-check-label"
+                                   for="terms">
+                                I agree to the terms and conditions
+                            </label>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit"
+                                    class="btn btn-success">
+                                Register Now
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
