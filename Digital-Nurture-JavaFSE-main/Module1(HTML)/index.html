@@ -1,524 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeighbourNet Community Portal</title>
-
-    <style>
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Verdana, sans-serif;
-            background: linear-gradient(to right, #eef2ff, #f8fbff);
-            color: #1f2937;
-        }
-
-        nav {
-            background-color: #111827;
-            padding: 18px;
-            position: sticky;
-            top: 0;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-right: 25px;
-            font-size: 17px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        nav a:hover {
-            color: #fbbf24;
-        }
-
-        #welcomeBanner {
-            background: linear-gradient(135deg, #2563eb, #7c3aed);
-            color: white;
-            text-align: center;
-            padding: 35px;
-            margin: 25px;
-            border-radius: 18px;
-            box-shadow: 0px 6px 18px rgba(0,0,0,0.2);
-        }
-
-        #welcomeBanner h1 {
-            font-size: 42px;
-            margin-bottom: 15px;
-        }
-
-        #welcomeBanner p {
-            font-size: 18px;
-        }
-
-        .highlight {
-            background-color: #fff3cd;
-            color: #7c2d12;
-            padding: 10px;
-            border-left: 6px solid orange;
-            width: 80%;
-            margin: auto;
-            border-radius: 8px;
-            font-weight: bold;
-        }
-
-        .sectionTitle {
-            text-align: center;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            color: #1d4ed8;
-            font-size: 32px;
-        }
-
-        table {
-            margin: auto;
-            border-spacing: 25px;
-        }
-
-        td {
-            text-align: center;
-            background-color: white;
-            padding: 15px;
-            border-radius: 15px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
-        }
-
-        .eventImage {
-            width: 260px;
-            height: 180px;
-            border-radius: 12px;
-            border: 4px solid #2563eb;
-            transition: transform 0.4s;
-        }
-
-        .eventImage:hover {
-            transform: scale(1.05);
-        }
-
-        form {
-            width: 70%;
-            margin: auto;
-            background-color: white;
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
-        }
-
-        label {
-            font-weight: bold;
-        }
-
-        input,
-        textarea,
-        select {
-            width: 100%;
-            padding: 12px;
-            margin-top: 8px;
-            margin-bottom: 18px;
-            border-radius: 8px;
-            border: 1px solid #cbd5e1;
-        }
-
-        button {
-            background-color: #2563eb;
-            color: white;
-            padding: 12px 18px;
-            border: none;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #1d4ed8;
-        }
-
-        #charCount {
-            color: crimson;
-            font-weight: bold;
-        }
-
-        video {
-            display: block;
-            margin: auto;
-            border-radius: 15px;
-            box-shadow: 0px 4px 15px rgba(0,0,0,0.25);
-        }
-
-        footer {
-            background-color: #111827;
-            color: white;
-            text-align: center;
-            padding: 18px;
-            margin-top: 40px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- Navigation -->
-
 <nav>
-    <a href="#home">Home</a>
-    <a href="#events">Events</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#register">Register</a>
-    <a href="#feedback">Feedback</a>
-    <a href="#contact">Contact</a>
-    <a href="help.html" target="_blank">Help Desk</a>
+    <div class="logo">NeighbourNet</div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="help.html" target="_blank">Help</a></li>
+    </ul>
 </nav>
 
-<!-- Main -->
+<header id="home">
+    <div id="mainHeader">
+        <h1>NeighbourNet Community Portal 🌟</h1>
 
-<main>
+        <p>
+            Bringing people together through local community activities,
+            volunteering drives and cultural events.
+        </p>
 
-    <!-- Home -->
-
-    <section id="home">
-
-        <div id="welcomeBanner">
-
-            <h1>NeighbourNet Community Portal 🌟</h1>
-
-            <p>
-                Bringing neighbourhoods together through events, volunteering,
-                culture and smart digital experiences.
-            </p>
-
-            <br>
-
-            <span style="color:yellow; font-size:22px; font-weight:bold;">
-                Exclusive Weekend Offer: Free Entry for First 50 Registrations!
+        <div class="offerBox">
+            <span style="color: yellow; font-weight: bold;">
+                First 50 registrations receive surprise gifts 🎁
             </span>
+        </div>
+    </div>
+</header>
 
+<section id="events">
+    <h2>Upcoming Events</h2>
+
+    <div class="announcement">
+        🔔 Smart City Cultural Fest starts this weekend.
+    </div>
+
+    <div class="filterSection">
+        <label>Select Category</label>
+
+        <select id="categoryFilter" onchange="filterCategory()">
+            <option value="All">All</option>
+            <option value="Music">Music</option>
+            <option value="Food">Food</option>
+            <option value="Sports">Sports</option>
+            <option value="Art">Art</option>
+        </select>
+    </div>
+
+    <div id="eventContainer"></div>
+</section>
+
+<section id="gallery">
+    <h2>Community Gallery 📸</h2>
+
+    <table>
+        <tr>
+            <td>
+                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop"
+                     alt="Music Festival"
+                     title="Music Festival"
+                     class="eventCard"
+                     ondblclick="enlargeImage(this)">
+                <p>Music Festival</p>
+            </td>
+
+            <td>
+                <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200&auto=format&fit=crop"
+                     alt="Food Carnival"
+                     title="Food Carnival"
+                     class="eventCard"
+                     ondblclick="enlargeImage(this)">
+                <p>Food Carnival</p>
+            </td>
+
+            <td>
+                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop"
+                     alt="Volunteer Meetup"
+                     title="Volunteer Meetup"
+                     class="eventCard"
+                     ondblclick="enlargeImage(this)">
+                <p>Volunteer Meetup</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?q=80&w=1200&auto=format&fit=crop"
+                     alt="Marathon Event"
+                     title="Marathon Event"
+                     class="eventCard"
+                     ondblclick="enlargeImage(this)">
+                <p>City Marathon</p>
+            </td>
+
+            <td>
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
+                     alt="Tech Meetup"
+                     title="Tech Meetup"
+                     class="eventCard"
+                     ondblclick="enlargeImage(this)">
+                <p>Tech Meetup</p>
+            </td>
+
+            <td>
+                <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=1200&auto=format&fit=crop"
+                     alt="Art Expo"
+                     title="Art Expo"
+                     class="eventCard"
+                     ondblclick="enlargeImage(this)">
+                <p>Art Expo</p>
+            </td>
+        </tr>
+    </table>
+</section>
+
+<section id="register">
+    <h2>Event Registration 📝</h2>
+
+    <form onsubmit="submitForm(); return false;">
+
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required autofocus>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter phone number" onblur="validatePhone()">
+
+        <label>Select Event</label>
+        <select id="eventType" onchange="displayFee(); savePreference();">
+            <option>Music Festival</option>
+            <option>Food Carnival</option>
+            <option>Marathon</option>
+            <option>Art Expo</option>
+        </select>
+
+        <div id="eventFee"></div>
+
+        <label>Event Date</label>
+        <input type="date" required>
+
+        <label>Feedback</label>
+        <textarea rows="5"
+                  id="feedbackText"
+                  placeholder="Share your feedback"
+                  onkeyup="countCharacters()"></textarea>
+
+        <div class="counterBox">
+            Characters Typed : <span id="charCount">0</span>
         </div>
 
-    </section>
-
-    <br>
-
-    <!-- Events -->
-
-    <section id="events">
-
-        <div class="highlight">
-            🔔 Smart City Cultural Week Begins This Friday at Marina Community Grounds.
+        <div class="buttonContainer">
+            <button type="submit" onclick="showConfirmation()">Register</button>
+            <button type="button" onclick="clearPreferences()">Clear Preferences</button>
         </div>
 
-    </section>
+        <br>
 
-    <!-- Gallery -->
+        <output id="outputMessage"></output>
 
-    <section id="gallery">
+    </form>
+</section>
 
-        <h2 class="sectionTitle">Community Moments Gallery 📸</h2>
+<section class="videoSection">
+    <h2>Community Invite 🎥</h2>
 
-        <table>
+    <video width="700" controls oncanplay="videoReady()">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
 
-            <tr>
+    <p id="videoMessage"></p>
+</section>
 
-                <td>
-                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop"
-                         alt="Music Festival"
-                         title="Open Air Music Festival"
-                         class="eventImage"
-                         ondblclick="enlargeImage(this)">
-                    <p>Open Air Music Festival</p>
-                </td>
+<section class="locationSection">
+    <h2>Find Nearby Events 📍</h2>
 
-                <td>
-                    <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200&auto=format&fit=crop"
-                         alt="Food Carnival"
-                         title="Street Food Carnival"
-                         class="eventImage"
-                         ondblclick="enlargeImage(this)">
-                    <p>Street Food Carnival</p>
-                </td>
+    <button onclick="findNearbyEvents()">Find Nearby Events</button>
 
-                <td>
-                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop"
-                         alt="Volunteer Event"
-                         title="Volunteer Meetup"
-                         class="eventImage"
-                         ondblclick="enlargeImage(this)">
-                    <p>Volunteer Meetup</p>
-                </td>
+    <div id="locationResult"></div>
+</section>
 
-            </tr>
+<section id="contact">
+    <h2>Contact Us ☎</h2>
 
-            <tr>
-
-                <td>
-                    <img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?q=80&w=1200&auto=format&fit=crop"
-                         alt="Marathon"
-                         title="City Marathon"
-                         class="eventImage"
-                         ondblclick="enlargeImage(this)">
-                    <p>City Marathon</p>
-                </td>
-
-                <td>
-                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
-                         alt="Tech Meetup"
-                         title="Youth Tech Meetup"
-                         class="eventImage"
-                         ondblclick="enlargeImage(this)">
-                    <p>Youth Tech Meetup</p>
-                </td>
-
-                <td>
-                    <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=1200&auto=format&fit=crop"
-                         alt="Art Event"
-                         title="Community Art Expo"
-                         class="eventImage"
-                         ondblclick="enlargeImage(this)">
-                    <p>Community Art Expo</p>
-                </td>
-
-            </tr>
-
-        </table>
-
-    </section>
-
-    <!-- Registration -->
-
-    <section id="register">
-
-        <h2 class="sectionTitle">Event Registration Form 📝</h2>
-
-        <form onsubmit="showMessage(); return false;">
-
-            <label>Resident Name</label>
-            <input type="text" placeholder="Enter your full name" required autofocus>
-
-            <label>Email Address</label>
-            <input type="email" placeholder="example@gmail.com" required>
-
-            <label>Phone Number</label>
-            <input type="tel" id="phone" onblur="validatePhone()" placeholder="10 digit number">
-
-            <label>Select Event Date</label>
-            <input type="date" required>
-
-            <label>Choose Event Type</label>
-            <select id="eventType" onchange="showFee(); savePreference();">
-                <option>Music Festival</option>
-                <option>Food Carnival</option>
-                <option>Marathon</option>
-                <option>Art Expo</option>
-            </select>
-
-            <p id="eventFee"></p>
-
-            <label>Feedback Message</label>
-            <textarea rows="5" id="feedbackBox" onkeyup="countCharacters()"
-                      placeholder="Share your thoughts"></textarea>
-
-            <p>Characters Typed: <span id="charCount">0</span></p>
-
-            <button type="submit" onclick="confirmRegistration()">
-                Register Event
-            </button>
-
-            <button type="button" onclick="clearPreferences()">
-                Clear Preferences
-            </button>
-
-            <br><br>
-
-            <output id="outputMessage"></output>
-
-        </form>
-
-    </section>
-
-    <!-- Video -->
-
-    <section>
-
-        <h2 class="sectionTitle">Community Video Invite 🎥</h2>
-
-        <video width="700" controls oncanplay="videoReady()">
-            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-        </video>
-
-        <p id="videoMessage" style="text-align:center; margin-top:10px;"></p>
-
-    </section>
-
-    <!-- Geolocation -->
-
-    <section>
-
-        <h2 class="sectionTitle">Find Nearby Events 📍</h2>
-
-        <div style="text-align:center;">
-            <button onclick="findLocation()">Find Nearby Events</button>
-            <p id="locationResult"></p>
-        </div>
-
-    </section>
-
-    <!-- Contact -->
-
-    <section id="contact">
-
-        <h2 class="sectionTitle">Contact Information ☎</h2>
-
-        <div style="text-align:center;">
-            <p>Email: neighbournet@gmail.com</p>
-            <p>Phone: +91 9876543210</p>
-            <p>Location: Coimbatore Smart Community Hub</p>
-        </div>
-
-    </section>
-
-</main>
-
-<!-- Footer -->
+    <div class="contactCard">
+        <p>Email : neighbournet@gmail.com</p>
+        <p>Phone : +91 9876543210</p>
+        <p>Location : Chennai Smart Community Hub</p>
+    </div>
+</section>
 
 <footer>
-    © 2026 NeighbourNet Community Portal | Designed for Smart Local Communities
+    © 2026 NeighbourNet Community Portal
 </footer>
 
-<script>
-
-    function validatePhone() {
-
-        let phone = document.getElementById("phone").value;
-
-        if (phone.length !== 10) {
-            alert("Phone number must contain 10 digits");
-        }
-    }
-
-    function showFee() {
-
-        let selectedEvent = document.getElementById("eventType").value;
-        let fee = "";
-
-        if (selectedEvent === "Music Festival") {
-            fee = "Event Fee: ₹300";
-        }
-        else if (selectedEvent === "Food Carnival") {
-            fee = "Event Fee: ₹200";
-        }
-        else if (selectedEvent === "Marathon") {
-            fee = "Event Fee: ₹500";
-        }
-        else {
-            fee = "Event Fee: ₹250";
-        }
-
-        document.getElementById("eventFee").innerHTML = fee;
-    }
-
-    function confirmRegistration() {
-        alert("Your registration has been submitted successfully!");
-    }
-
-    function showMessage() {
-        document.getElementById("outputMessage").innerHTML =
-            "✅ Thank you for registering for the community event!";
-    }
-
-    function enlargeImage(image) {
-
-        if (image.style.transform === "scale(1.5)") {
-            image.style.transform = "scale(1)";
-        }
-        else {
-            image.style.transform = "scale(1.5)";
-        }
-    }
-
-    function countCharacters() {
-
-        let count = document.getElementById("feedbackBox").value.length;
-
-        document.getElementById("charCount").innerHTML = count;
-    }
-
-    function videoReady() {
-        document.getElementById("videoMessage").innerHTML =
-            "🎬 Video ready to play";
-    }
-
-    function savePreference() {
-
-        let event = document.getElementById("eventType").value;
-
-        localStorage.setItem("preferredEvent", event);
-    }
-
-    window.onload = function () {
-
-        let savedEvent = localStorage.getItem("preferredEvent");
-
-        if (savedEvent) {
-            document.getElementById("eventType").value = savedEvent;
-        }
-    }
-
-    function clearPreferences() {
-
-        localStorage.clear();
-        sessionStorage.clear();
-
-        alert("Preferences Cleared Successfully");
-    }
-
-    function findLocation() {
-
-        if (navigator.geolocation) {
-
-            navigator.geolocation.getCurrentPosition(success, error, {
-                enableHighAccuracy: true,
-                timeout: 5000
-            });
-        }
-        else {
-            document.getElementById("locationResult").innerHTML =
-                "Geolocation not supported.";
-        }
-    }
-
-    function success(position) {
-
-        let latitude = position.coords.latitude;
-        let longitude = position.coords.longitude;
-
-        document.getElementById("locationResult").innerHTML =
-            "📍 Latitude: " + latitude +
-            "<br>📍 Longitude: " + longitude;
-    }
-
-    function error(err) {
-
-        document.getElementById("locationResult").innerHTML =
-            "Location access denied or timed out.";
-    }
-
-    window.onbeforeunload = function () {
-        return "Your form is not completed. Are you sure you want to leave?";
-    }
-
-    console.log("NeighbourNet Portal Loaded Successfully");
-
-</script>
+<script src="main.js"></script>
 
 </body>
-
 </html>
-
