@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>18.2 Accordion</title>
+
+    <link rel="stylesheet"
+          href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+    <h3 class="mb-4">GDG Coimbatore FAQ</h3>
+
+    <div class="accordion" id="faq">
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#q1">
+
+                    What is GDG?
+
+                </button>
+
+            </h2>
+
+            <div id="q1"
+                 class="accordion-collapse collapse show"
+                 data-bs-parent="#faq">
+
+                <div class="accordion-body">
+                    GDG stands for Google Developer Groups, a community for developers.
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#q2">
+
+                    Who can join?
+
+                </button>
+
+            </h2>
+
+            <div id="q2"
+                 class="accordion-collapse collapse"
+                 data-bs-parent="#faq">
+
+                <div class="accordion-body">
+                    Any student or developer interested in technology can join.
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#q3">
+
+                    What activities are conducted?
+
+                </button>
+
+            </h2>
+
+            <div id="q3"
+                 class="accordion-collapse collapse"
+                 data-bs-parent="#faq">
+
+                <div class="accordion-body">
+                    Workshops, hackathons, study jams, and tech talks.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
