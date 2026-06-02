@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ae026d7-e924-4888-b718-a3676faa52af" name="Changes" comment="Completed HTML5 Community Portal Assignment">
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/.idea/CTS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/DN 4.0 - Java FSE Mandatory hands-on detail.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Engineering concepts/Algorithms_Data Structures.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Engineering concepts/Design Patterns and Principles.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/GIT/1. Git-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/GIT/2. Git-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/GIT/3. Git-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/GIT/4. Git-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/GIT/5. Git-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/1. JUnit_Basic Testing Exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/2. JUnit_Advanced Testing exercices.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/3. Mockito exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/3. Mockito_Advanced exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/4. JUnit_Spring Test exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/5. Mockito_Mock dependencies exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/JUnit, Mockito and SL4J/6. SL4J Logging exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Microservices/0. Sample Microservices Load balancing exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Microservices/0. Sample Microservices exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Microservices/1. Microservices using Spring Boot 3 exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Microservices/2. Microservices with API gateway.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Microservices/3. Microservices composite handson.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/PL SQL programming/PLSQL_Exercises.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/1. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/10. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/11. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/12. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/13. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/14. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/15. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/16. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/17. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/18. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/19. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/2. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/3. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/4. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/5. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/6. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/7. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/8. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/React/9. ReactJS-HOL.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Spring Core and Maven/Spring Core_Maven.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Spring Data JPA with Hibernate/1. spring-data-jpa-handson.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Spring Data JPA with Hibernate/2. spring-data-jpa-handson.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Spring Data JPA with Hibernate/3. spring-data-jpa-handson.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Spring Data JPA with Hibernate/Spring Data JPA and Hibernate.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Spring REST using Spring Boot/1. spring-rest-handson.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Spring REST using Spring Boot/2. spring-rest-handson.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Spring REST using Spring Boot/3. spring-rest-handson.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Spring REST using Spring Boot/4. spring-rest-handson.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Deepskilling/Spring REST using Spring Boot/5. JWT-handson.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Upskilling/Module 1-Bootstrap5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Upskilling/Module 1-CSS3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Upskilling/Module 1-HTML 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Upskilling/Module 1-JavaScript.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Upskilling/Module 2-ANSI SQL Using MySQL.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Java FSE/Upskilling/Module 3-Core Java.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Module1(HTML)/Bootstrap5_Exercises/bs1.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Module1(HTML)/Bootstrap5_Exercises/bs1.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Module1(HTML)/Bootstrap5_Exercises/bs2.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Module1(HTML)/Bootstrap5_Exercises/bs2.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Module1(HTML)/Bootstrap5_Exercises/bs3.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Module1(HTML)/Help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Module1(HTML)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Module1(HTML)/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/Module1(HTML)/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/Digital-Nurture-JavaFSE-main/src/Week1_assignment_Solutions/Helloworld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/Events.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Priyadharshini-Ravichandran19&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Priyadharshini-Ravichandran19/Digital-Nurture-JavaFSE-Solutions.git&quot;,
+    &quot;accountId&quot;: &quot;994ef37f-a9c9-4bfb-b7be-8ccbae685cbc&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EOypqI5yGETB6kv70AoxW63rsE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Hello_world.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Helloworld.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Help.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs1.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs10.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs10.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs11.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs11.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs12.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs12.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs13.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs13.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs14.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs14.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs15.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs15.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs16.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs16.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs17.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs17.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs18.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs18.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs2.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs2.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs3.1.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.bs3.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs4.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs4.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs5.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs5.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs6.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs6.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs7.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs7.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs8.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs8.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs9.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bs9.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.javascript.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PRIYADHARSHINI R/OneDrive/Desktop/CTS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PRIYADHARSHINI R\OneDrive\Desktop\CTS\Digital-Nurture-JavaFSE-main\Module1\Bootstrap5_Exercises" />
+      <recent name="C:\Users\PRIYADHARSHINI R\OneDrive\Desktop\CTS\Digital-Nurture-JavaFSE-main\Module1\Bootstrap5_Exercises\bootstrap-5.3.8-dist" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Help.html">
+    <configuration name="Help.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CTS/Digital-Nurture-JavaFSE-main/Module1/Help.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="bs18.1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CTS/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/bs18.1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="bs18.2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CTS/Digital-Nurture-JavaFSE-main/Module1/Bootstrap5_Exercises/bs18.2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CTS/Digital-Nurture-JavaFSE-main/Module1/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="javascript.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1/javascript.js" working-dir="$PROJECT_DIR$/Digital-Nurture-JavaFSE-main/Module1">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Help.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.javascript.js" />
+        <item itemvalue="JavaScript Debug.bs18.2.html" />
+        <item itemvalue="JavaScript Debug.bs18.1.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ae026d7-e924-4888-b718-a3676faa52af" name="Changes" comment="" />
+      <created>1780064099383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780064099383</updated>
+      <workItem from="1780064119590" duration="5645000" />
+      <workItem from="1780072090445" duration="3539000" />
+      <workItem from="1780110891787" duration="6714000" />
+      <workItem from="1780248698600" duration="6898000" />
+      <workItem from="1780287867269" duration="2862000" />
+    </task>
+    <task id="LOCAL-00001" summary="Completed HTML5 Community Portal Assignment">
+      <option name="closed" value="true" />
+      <created>1780120025150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780120025150</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Completed HTML5 Community Portal Assignment">
+      <option name="closed" value="true" />
+      <created>1780120600861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780120600861</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed HTML5 Community Portal Assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed HTML5 Community Portal Assignment" />
+  </component>
+</project>
